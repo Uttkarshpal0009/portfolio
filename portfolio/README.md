@@ -1,33 +1,106 @@
-# Uttkarsh Pal — Developer Portfolio
+# 🚀 Uttkarsh Pal — Full Stack Developer Portfolio
 
-A responsive React + Tailwind CSS portfolio with a dark glassmorphism visual system.
+A modern, responsive personal portfolio website built to showcase my skills, projects, experience, and journey as a Full Stack Developer.
 
-## Included
+## 🌐 Live Website
 
-- Responsive hero section with profile photo
-- GitHub and LinkedIn links with icons
-- About, skills, projects, journey and contact sections
-- Active navigation state + mobile navigation
-- Project links for Notes Keeper and portfolio GitHub
-- Accessible external links and image alt text
-- Responsive layouts for mobile, tablet and desktop
-- SEO/meta tags and theme color
+Coming soon...
 
-## Run locally
+## 👨‍💻 About Me
 
-```bash
-npm install
-npm run dev
-```
+Hi, I'm **Uttkarsh Pal**, a Full Stack Developer passionate about building modern, responsive, and practical web applications.
 
-## Production build
+I enjoy working with frontend technologies as well as backend development and continuously improving my development skills by building real-world projects.
 
-```bash
-npm run build
-```
+### My Focus
 
-## Links
+- ⚛️ React.js
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB
+- 🎨 Tailwind CSS
+- 💻 JavaScript
+- 🔗 REST APIs
+- 📱 Responsive Web Design
 
-- GitHub: https://github.com/Uttkarshpal0009
-- LinkedIn: https://www.linkedin.com/in/uttkarsh-pal-web-developer/
-- Notes Keeper: https://notes-app-kyko.vercel.app/
+---
+
+## ✨ Features
+
+- 🎨 Modern dark/green glassmorphism UI
+- 📱 Fully responsive design
+- ⚡ Fast Vite + React setup
+- 🧭 Smooth navigation
+- 👤 Personal profile section
+- 💼 Projects showcase
+- 🛠️ Skills section
+- 📈 Developer journey section
+- 📩 Contact section
+- 🔗 GitHub integration
+- 💼 LinkedIn integration
+- 📸 Instagram integration
+- 📧 Email contact
+- ✨ Hover animations and transitions
+- 🌐 SEO-friendly structure
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Tools
+
+- Git
+- GitHub
+- Vite
+- VS Code
+- Postman
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Journey.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Project.jsx
+│   │   ├── Skills.jsx
+│   │   └── SocialIcons.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+└── README.md
