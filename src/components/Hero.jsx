@@ -75,7 +75,7 @@ function Hero() {
             
             {/* Profile Image */}
             <img
-              src="/src/assets/profile.JPG"
+              src="profile.JPG"
               alt="Uttkarsh Pal"
               className="absolute inset-0 h-full w-full object-cover"
             />
