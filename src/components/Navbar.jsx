@@ -44,7 +44,7 @@ function Navbar() {
 
         {/* Resume */}
         <a
-          href="/resume.pdf"
+          href="/uttkarsh_resume.pdf"
           download
           className="flex items-center gap-2 rounded-full bg-[#f5f1e8] px-5 py-2.5 text-sm font-medium text-[#102018] transition hover:bg-[#dfe8c8]"
         >

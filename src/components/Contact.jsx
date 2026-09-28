@@ -1,6 +1,9 @@
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 
 function Contact() {
+  const gmailLink =
+    "https://mail.google.com/mail/?view=cm&fs=1&to=uttkarshpal0009@gmail.com&su=Let's%20Connect%20with%20Uttkarsh&body=Hello%20Uttkarsh,%0A%0AI%20would%20like%20to%20connect%20with%20you.";
+
   return (
     <section
       id="contact"
@@ -10,7 +13,6 @@ function Contact() {
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#b7c98b]/10 blur-3xl" />
 
       <div className="mx-auto max-w-6xl">
-
         {/* Heading */}
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.25em] text-[#b7c98b]">
@@ -47,7 +49,9 @@ function Contact() {
 
                 {/* Email */}
                 <a
-                  href="mailto:uttkarshpal0009@gmail.com"
+                  href={gmailLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group flex items-center gap-4"
                 >
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#b7c98b]/10 text-[#b7c98b]">
@@ -56,6 +60,7 @@ function Contact() {
 
                   <div>
                     <p className="text-xs text-white/30">Email</p>
+
                     <p className="mt-1 text-sm text-white/65 transition group-hover:text-[#f5f1e8]">
                       uttkarshpal0009@gmail.com
                     </p>
@@ -73,6 +78,7 @@ function Contact() {
 
                   <div>
                     <p className="text-xs text-white/30">Phone</p>
+
                     <p className="mt-1 text-sm text-white/65 transition group-hover:text-[#f5f1e8]">
                       +91 8182836832
                     </p>
@@ -87,18 +93,17 @@ function Contact() {
 
                   <div>
                     <p className="text-xs text-white/30">Location</p>
+
                     <p className="mt-1 text-sm text-white/65">
                       Pune, Maharashtra
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
 
             {/* Right */}
             <div className="flex flex-col justify-between">
-
               <div>
                 <p className="text-sm leading-7 text-white/45">
                   I'm always interested in learning, building meaningful
@@ -106,8 +111,11 @@ function Contact() {
                   ideas.
                 </p>
 
+                {/* Start Conversation - Gmail */}
                 <a
-                  href="mailto:uttkarshpal0009@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=uttkarshpal0009@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-7 inline-flex items-center gap-3 rounded-full bg-[#f5f1e8] px-6 py-3.5 text-sm font-medium text-[#102018] transition hover:bg-[#dfe8c8]"
                 >
                   Start a conversation
@@ -130,8 +138,8 @@ function Contact() {
                   opportunities.
                 </p>
               </div>
-
             </div>
+
           </div>
         </div>
       </div>

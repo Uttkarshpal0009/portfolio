@@ -28,7 +28,7 @@ const projects = [
       "A responsive CRUD notes application with instant UI updates, editing, deleting, and dynamic date handling.",
     tech: ["React.js", "JavaScript", "Tailwind CSS"],
     github: "https://github.com/Uttkarshpal0009/notes-app",
-    live: "https://notes-app-kyko.vercel.app/",
+    live: "https://notes-app-self-ten.vercel.app/",
     featured: false,
   },
   {
