@@ -16,8 +16,8 @@ const projects = [
       "Context API",
       "Axios",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/Uttkarshpal0009/Cloudstorage-UploDrive",
+    live: "https://uplodrive.vercel.app/login",
     featured: true,
   },
   {
@@ -38,8 +38,8 @@ const projects = [
     description:
       "A responsive developer portfolio showcasing projects, technical skills, and professional experience.",
     tech: ["React.js", "JavaScript", "Tailwind CSS"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/Uttkarshpal0009/portfolio",
+    live: "https://uttkarsh-portfolio.vercel.app/",
     featured: false,
   },
 ];
