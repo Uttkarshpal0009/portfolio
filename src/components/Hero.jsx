@@ -71,7 +71,7 @@ function Hero() {
         {/* RIGHT */}
         <div className="relative flex justify-center">
           {/* Profile Card */}
-          <div className="liquid-glass relative h-[400px] w-full max-w-[420px] overflow-hidden rounded-[32px]">
+          <div className="liquid-glass relative h-[500px] w-full max-w-[520px] overflow-hidden rounded-[32px]">
             
             {/* Profile Image */}
             <img
